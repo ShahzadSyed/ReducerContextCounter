@@ -38,4 +38,4 @@ jobs:
       run : npm install -g surge
     
     - name: deploying surge
-      run:  surge ./build http://reducercontextcounter.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run:  surge ./build contextreducerhook.surge.sh --token ${{secrets.SURGE_TOKEN}}
