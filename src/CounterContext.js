@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import { createContext } from 'react';
 
 const counterContext = createContext(5); //It is Hook of React
 
